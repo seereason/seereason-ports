@@ -1,0 +1,16 @@
+Name:              seereason-ports
+Version:           1.0
+License:           AllRightsReserved
+Copyright:         (c) 2013, SeeReason Partners LLC
+Author:            David Fox <dsf@seereason.com>
+Maintainer:        David Fox <dsf@seereason.com>
+Synopsis:          HTTP port assignments for seereason applications.
+Description:       Authoritative source for the port numbers used to start our web applications
+Build-Type:        Simple
+Category:          Web
+Cabal-Version:     >= 1.9
+
+Library
+  GHC-Options:     -O2 -Wall
+  Exposed-Modules: Ports
+  Build-Depends:   base
