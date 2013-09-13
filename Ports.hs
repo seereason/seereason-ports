@@ -22,3 +22,4 @@ appraisalReportOnlineDotCom = {- Ports 9220 9221 9222 9223 -} Ports 9040 9041 90
 tiny =                        {- Ports 9232 9233 9234 9235 -} Ports 9052 9233 9053 9235
 optimum =                     Ports 9224 9225 9226 9227
 paste =                       Ports 9228 9229 9230 9231
+mimo =                        Ports 9232 9233 9234 9235
