@@ -1,5 +1,9 @@
+{-# LANGUAGE DeriveDataTypeable #-}
 {-# OPTIONS -fno-warn-missing-signatures #-}
 module Ports where
+
+import Data.Data (Data)
+import Data.Typeable (Typeable)
 
 data Ports
     = Ports
@@ -7,7 +11,7 @@ data Ports
       , staging :: Int -- ^ Port for staging package
       , development :: Int -- ^ Port for development package
       , inplace :: Int -- ^ Port to use when running from the build directory
-      }
+      } deriving (Eq, Ord, Read, Show, Data, Typeable)
 
 -- These ports should be changed to the commented out versions once
 -- the packaging has been changed to use this library instead of the
