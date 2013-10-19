@@ -27,3 +27,4 @@ tiny =                        {- Ports 9232 9233 9234 9235 -} Ports 9052 9233 90
 optimum =                     Ports 9224 9225 9226 9227
 paste =                       Ports 9228 9229 9230 9231
 mimo =                        Ports 9232 9233 9234 9235
+appraisalscribe =             Ports 9236 9237 9238 9239
